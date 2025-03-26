@@ -1,0 +1,22 @@
+{
+    "name": "maria.freitas4/tarefas",
+    "type": "project",
+    "require": {
+        "slim/slim": "^4.14",
+        "psr/http-client": "^1.0",
+        "slim/psr7": "^1.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "MariaFreitas4\\Tarefas\\": "src/"
+        }
+    },
+    "require-dev": {
+        "pestphp/pest": "^2.36"
+    },
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    }
+}
