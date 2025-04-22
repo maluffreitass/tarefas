@@ -27,7 +27,7 @@ $errorMiddleware->setErrorHandler(HttpNotFoundException::class, function (
         ->withStatus(404);
 });
 
-$app->get("/math/soma/{num1}{num2}", function (Request $request, Response $response, array $args) {
+$app->get("/math/soma/{num1}/{num2}", function(Request $request, Response $response, array $args){
     $basic = new Basic();
     $resultado = $basic->soma($args['num1'], $args['num2']);
     $response->getBody()->write((string) $resultado);

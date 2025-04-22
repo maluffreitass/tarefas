@@ -6,7 +6,7 @@ namespace Composer\Autoload;
 
 class ComposerStaticIniteddf31c6439231039cf6a8ba0431e0f3
 {
-    public static $files = array (
+    public static $files = array(
         '6e3fae29631ef280660b3cdad06f25a8' => __DIR__ . '/..' . '/symfony/deprecation-contracts/function.php',
         '0e6d7bf4a5811bfa5cf40c5ccd6fae6a' => __DIR__ . '/..' . '/symfony/polyfill-mbstring/bootstrap.php',
         '320cde22f66dd4f5d3fd621d3e88b98f' => __DIR__ . '/..' . '/symfony/polyfill-ctype/bootstrap.php',
@@ -25,22 +25,22 @@ class ComposerStaticIniteddf31c6439231039cf6a8ba0431e0f3
         '7d2876738dc0328edeb8a103c76cd8e7' => __DIR__ . '/..' . '/pestphp/pest/src/Pest.php',
     );
 
-    public static $prefixLengthsPsr4 = array (
-        'p' => 
-        array (
+    public static $prefixLengthsPsr4 = array(
+        'p' =>
+        array(
             'phpDocumentor\\Reflection\\' => 25,
         ),
-        'W' => 
-        array (
+        'W' =>
+        array(
             'Whoops\\' => 7,
             'Webmozart\\Assert\\' => 17,
         ),
-        'T' => 
-        array (
+        'T' =>
+        array(
             'Termwind\\' => 9,
         ),
-        'S' => 
-        array (
+        'S' =>
+        array(
             'Symfony\\Polyfill\\Php80\\' => 23,
             'Symfony\\Polyfill\\Mbstring\\' => 26,
             'Symfony\\Polyfill\\Intl\\Normalizer\\' => 33,
@@ -54,13 +54,15 @@ class ComposerStaticIniteddf31c6439231039cf6a8ba0431e0f3
             'Slim\\Psr7\\' => 10,
             'Slim\\' => 5,
         ),
-        'P' => 
-        array (
+        'P' =>
+        array(
             'Psr\\Log\\' => 8,
             'Psr\\Http\\Server\\' => 16,
             'Psr\\Http\\Message\\' => 17,
             'Psr\\Http\\Client\\' => 16,
             'Psr\\Container\\' => 14,
+            'Projetux\\Math\\' => 14,
+            'Projetux\\Infra\\' => 15,
             'PhpParser\\' => 10,
             'Pest\\Plugin\\' => 12,
             'Pest\\Arch\\' => 10,
@@ -69,183 +71,191 @@ class ComposerStaticIniteddf31c6439231039cf6a8ba0431e0f3
             'PHPUnit\\Architecture\\' => 21,
             'PHPStan\\PhpDocParser\\' => 21,
         ),
-        'N' => 
-        array (
+        'N' =>
+        array(
             'NunoMaduro\\Collision\\' => 21,
         ),
-        'M' => 
-        array (
+        'M' =>
+        array(
             'MariaFreitas4\\Tarefas\\' => 22,
         ),
-        'J' => 
-        array (
+        'J' =>
+        array(
             'Jean85\\' => 7,
         ),
-        'F' => 
-        array (
+        'F' =>
+        array(
             'Fig\\Http\\Message\\' => 17,
             'Fidry\\CpuCoreCounter\\' => 21,
             'FastRoute\\' => 10,
         ),
-        'D' => 
-        array (
+        'D' =>
+        array(
             'Doctrine\\Deprecations\\' => 22,
             'DeepCopy\\' => 9,
         ),
     );
 
-    public static $prefixDirsPsr4 = array (
-        'phpDocumentor\\Reflection\\' => 
-        array (
+    public static $prefixDirsPsr4 = array(
+        'phpDocumentor\\Reflection\\' =>
+        array(
             0 => __DIR__ . '/..' . '/phpdocumentor/reflection-docblock/src',
             1 => __DIR__ . '/..' . '/phpdocumentor/type-resolver/src',
             2 => __DIR__ . '/..' . '/phpdocumentor/reflection-common/src',
         ),
-        'Whoops\\' => 
-        array (
+        'Whoops\\' =>
+        array(
             0 => __DIR__ . '/..' . '/filp/whoops/src/Whoops',
         ),
-        'Webmozart\\Assert\\' => 
-        array (
+        'Webmozart\\Assert\\' =>
+        array(
             0 => __DIR__ . '/..' . '/webmozart/assert/src',
         ),
-        'Termwind\\' => 
-        array (
+        'Termwind\\' =>
+        array(
             0 => __DIR__ . '/..' . '/nunomaduro/termwind/src',
         ),
-        'Symfony\\Polyfill\\Php80\\' => 
-        array (
+        'Symfony\\Polyfill\\Php80\\' =>
+        array(
             0 => __DIR__ . '/..' . '/symfony/polyfill-php80',
         ),
-        'Symfony\\Polyfill\\Mbstring\\' => 
-        array (
+        'Symfony\\Polyfill\\Mbstring\\' =>
+        array(
             0 => __DIR__ . '/..' . '/symfony/polyfill-mbstring',
         ),
-        'Symfony\\Polyfill\\Intl\\Normalizer\\' => 
-        array (
+        'Symfony\\Polyfill\\Intl\\Normalizer\\' =>
+        array(
             0 => __DIR__ . '/..' . '/symfony/polyfill-intl-normalizer',
         ),
-        'Symfony\\Polyfill\\Intl\\Grapheme\\' => 
-        array (
+        'Symfony\\Polyfill\\Intl\\Grapheme\\' =>
+        array(
             0 => __DIR__ . '/..' . '/symfony/polyfill-intl-grapheme',
         ),
-        'Symfony\\Polyfill\\Ctype\\' => 
-        array (
+        'Symfony\\Polyfill\\Ctype\\' =>
+        array(
             0 => __DIR__ . '/..' . '/symfony/polyfill-ctype',
         ),
-        'Symfony\\Contracts\\Service\\' => 
-        array (
+        'Symfony\\Contracts\\Service\\' =>
+        array(
             0 => __DIR__ . '/..' . '/symfony/service-contracts',
         ),
-        'Symfony\\Component\\String\\' => 
-        array (
+        'Symfony\\Component\\String\\' =>
+        array(
             0 => __DIR__ . '/..' . '/symfony/string',
         ),
-        'Symfony\\Component\\Process\\' => 
-        array (
+        'Symfony\\Component\\Process\\' =>
+        array(
             0 => __DIR__ . '/..' . '/symfony/process',
         ),
-        'Symfony\\Component\\Finder\\' => 
-        array (
+        'Symfony\\Component\\Finder\\' =>
+        array(
             0 => __DIR__ . '/..' . '/symfony/finder',
         ),
-        'Symfony\\Component\\Console\\' => 
-        array (
+        'Symfony\\Component\\Console\\' =>
+        array(
             0 => __DIR__ . '/..' . '/symfony/console',
         ),
-        'Slim\\Psr7\\' => 
-        array (
+        'Slim\\Psr7\\' =>
+        array(
             0 => __DIR__ . '/..' . '/slim/psr7/src',
         ),
-        'Slim\\' => 
-        array (
+        'Slim\\' =>
+        array(
             0 => __DIR__ . '/..' . '/slim/slim/Slim',
         ),
-        'Psr\\Log\\' => 
-        array (
+        'Psr\\Log\\' =>
+        array(
             0 => __DIR__ . '/..' . '/psr/log/src',
         ),
-        'Psr\\Http\\Server\\' => 
-        array (
+        'Psr\\Http\\Server\\' =>
+        array(
             0 => __DIR__ . '/..' . '/psr/http-server-middleware/src',
             1 => __DIR__ . '/..' . '/psr/http-server-handler/src',
         ),
-        'Psr\\Http\\Message\\' => 
-        array (
+        'Psr\\Http\\Message\\' =>
+        array(
             0 => __DIR__ . '/..' . '/psr/http-factory/src',
             1 => __DIR__ . '/..' . '/psr/http-message/src',
         ),
-        'Psr\\Http\\Client\\' => 
-        array (
+        'Psr\\Http\\Client\\' =>
+        array(
             0 => __DIR__ . '/..' . '/psr/http-client/src',
         ),
-        'Psr\\Container\\' => 
-        array (
+        'Psr\\Container\\' =>
+        array(
             0 => __DIR__ . '/..' . '/psr/container/src',
         ),
-        'PhpParser\\' => 
-        array (
+        'Projetux\\Math\\' =>
+        array(
+            0 => __DIR__ . '/../..' . '/src/Math',
+        ),
+        'Projetux\\Infra\\' =>
+        array(
+            0 => __DIR__ . '/../..' . '/src/Infra',
+        ),
+        'PhpParser\\' =>
+        array(
             0 => __DIR__ . '/..' . '/nikic/php-parser/lib/PhpParser',
         ),
-        'Pest\\Plugin\\' => 
-        array (
+        'Pest\\Plugin\\' =>
+        array(
             0 => __DIR__ . '/..' . '/pestphp/pest-plugin/src',
         ),
-        'Pest\\Arch\\' => 
-        array (
+        'Pest\\Arch\\' =>
+        array(
             0 => __DIR__ . '/..' . '/pestphp/pest-plugin-arch/src',
         ),
-        'Pest\\' => 
-        array (
+        'Pest\\' =>
+        array(
             0 => __DIR__ . '/..' . '/pestphp/pest/src',
         ),
-        'ParaTest\\' => 
-        array (
+        'ParaTest\\' =>
+        array(
             0 => __DIR__ . '/..' . '/brianium/paratest/src',
         ),
-        'PHPUnit\\Architecture\\' => 
-        array (
+        'PHPUnit\\Architecture\\' =>
+        array(
             0 => __DIR__ . '/..' . '/ta-tikoma/phpunit-architecture-test/src',
         ),
-        'PHPStan\\PhpDocParser\\' => 
-        array (
+        'PHPStan\\PhpDocParser\\' =>
+        array(
             0 => __DIR__ . '/..' . '/phpstan/phpdoc-parser/src',
         ),
-        'NunoMaduro\\Collision\\' => 
-        array (
+        'NunoMaduro\\Collision\\' =>
+        array(
             0 => __DIR__ . '/..' . '/nunomaduro/collision/src',
         ),
-        'MariaFreitas4\\Tarefas\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/src',
+        'MariaFreitas4\\Tarefas\\' =>
+        array(
+            0 => __DIR__ . '/../..' . '/src/Service',
         ),
-        'Jean85\\' => 
-        array (
+        'Jean85\\' =>
+        array(
             0 => __DIR__ . '/..' . '/jean85/pretty-package-versions/src',
         ),
-        'Fig\\Http\\Message\\' => 
-        array (
+        'Fig\\Http\\Message\\' =>
+        array(
             0 => __DIR__ . '/..' . '/fig/http-message-util/src',
         ),
-        'Fidry\\CpuCoreCounter\\' => 
-        array (
+        'Fidry\\CpuCoreCounter\\' =>
+        array(
             0 => __DIR__ . '/..' . '/fidry/cpu-core-counter/src',
         ),
-        'FastRoute\\' => 
-        array (
+        'FastRoute\\' =>
+        array(
             0 => __DIR__ . '/..' . '/nikic/fast-route/src',
         ),
-        'Doctrine\\Deprecations\\' => 
-        array (
+        'Doctrine\\Deprecations\\' =>
+        array(
             0 => __DIR__ . '/..' . '/doctrine/deprecations/src',
         ),
-        'DeepCopy\\' => 
-        array (
+        'DeepCopy\\' =>
+        array(
             0 => __DIR__ . '/..' . '/myclabs/deep-copy/src/DeepCopy',
         ),
     );
 
-    public static $classMap = array (
+    public static $classMap = array(
         'Attribute' => __DIR__ . '/..' . '/symfony/polyfill-php80/Resources/stubs/Attribute.php',
         'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
         'Normalizer' => __DIR__ . '/..' . '/symfony/polyfill-intl-normalizer/Resources/stubs/Normalizer.php',
@@ -1426,7 +1436,8 @@ class ComposerStaticIniteddf31c6439231039cf6a8ba0431e0f3
             $loader->prefixLengthsPsr4 = ComposerStaticIniteddf31c6439231039cf6a8ba0431e0f3::$prefixLengthsPsr4;
             $loader->prefixDirsPsr4 = ComposerStaticIniteddf31c6439231039cf6a8ba0431e0f3::$prefixDirsPsr4;
             $loader->classMap = ComposerStaticIniteddf31c6439231039cf6a8ba0431e0f3::$classMap;
-
+            
+            
         }, null, ClassLoader::class);
     }
 }
